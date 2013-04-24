@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 group :development do
+  gem 'rake'
   gem 'berkshelf',    '~> 1.4.0'
   gem 'test-kitchen', '~> 1.0.0.alpha.4'
   gem 'chef',         '~> 11.4.0'

@@ -1,4 +1,18 @@
 .rake_test_cache
+# Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+/cookbooks
+
+# Bundler
+# Gemfile.lock
+bin/*
+.bundle/*
+
 
 ###
 # Ignore Chef key files and secrets
